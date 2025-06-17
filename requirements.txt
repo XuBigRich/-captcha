@@ -1,0 +1,7 @@
+# requirements.txt
+ddddocr==1.5.6
+opencv-python>=4.11.0.86  # 或固定为最新稳定版，如 4.9.0
+numpy>=1.26.0  # Python 3.12 必须用 1.26.0+
+requests==2.28.2  # 兼容 Python 3.12
+Pillow>=10.0.0  # Python 3.12 推荐 10.0.0+
+loguru>=0.7.0  # 兼容 Python 3.12
