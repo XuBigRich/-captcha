@@ -1,3 +1,24 @@
 2025-06-17 19:44:26.485 | ERROR    | captcha.downloader:download_from_url:40 - 下载验证码失败: argument should be a bytes-like object or ASCII string, not 'NoneType'
 2025-06-17 19:44:26.486 | ERROR    | captcha.recognizer:recognize_slider:35 - 识别滑块失败: [Errno 2] No such file or directory: 'example/target.png'
 2025-06-17 19:44:26.486 | ERROR    | __main__:main:34 - 无法识别滑块位置
+2025-06-17 21:44:59.252 | ERROR    | captcha.downloader:download_from_url:40 - 下载验证码失败: argument should be a bytes-like object or ASCII string, not 'NoneType'
+2025-06-17 21:45:13.453 | ERROR    | captcha.recognizer:recognize_slider:35 - 识别滑块失败: [Errno 2] No such file or directory: 'example/target.png'
+2025-06-17 21:45:13.455 | ERROR    | __main__:main:34 - 无法识别滑块位置
+2025-06-17 21:52:36.877 | SUCCESS  | captcha.downloader:download_from_url:34 - 验证码图片已保存到: /Users/xuhongzhi/pyProject/captcha/config/../images/originalImage 和 /Users/xuhongzhi/pyProject/captcha/config/../images/jigsawImage
+2025-06-17 21:53:59.743 | ERROR    | captcha.recognizer:recognize_slider:35 - 识别滑块失败: [Errno 2] No such file or directory: 'example/target.png'
+2025-06-17 21:53:59.746 | ERROR    | __main__:main:34 - 无法识别滑块位置
+2025-06-17 21:56:28.922 | SUCCESS  | captcha.downloader:download_from_url:34 - 验证码图片已保存到: /Users/xuhongzhi/pyProject/captcha/config/../images/originalImage.png 和 /Users/xuhongzhi/pyProject/captcha/config/../images/jigsawImage.png
+2025-06-17 21:56:30.572 | ERROR    | captcha.recognizer:recognize_slider:35 - 识别滑块失败: [Errno 2] No such file or directory: 'example/target.png'
+2025-06-17 21:56:30.573 | ERROR    | __main__:main:34 - 无法识别滑块位置
+2025-06-17 21:56:39.887 | SUCCESS  | captcha.downloader:download_from_url:34 - 验证码图片已保存到: /Users/xuhongzhi/pyProject/captcha/config/../images/originalImage.png 和 /Users/xuhongzhi/pyProject/captcha/config/../images/jigsawImage.png
+2025-06-17 21:56:39.887 | ERROR    | captcha.recognizer:recognize_slider:35 - 识别滑块失败: [Errno 2] No such file or directory: 'example/target.png'
+2025-06-17 21:56:39.888 | ERROR    | __main__:main:34 - 无法识别滑块位置
+2025-06-17 22:01:46.695 | SUCCESS  | captcha.downloader:download_from_url:34 - 验证码图片已保存到: /Users/xuhongzhi/pyProject/captcha/config/../images/originalImage.png 和 /Users/xuhongzhi/pyProject/captcha/config/../images/jigsawImage.png
+2025-06-17 22:01:46.833 | INFO     | captcha.recognizer:recognize_slider:32 - 识别成功，缺口位置: 136px
+2025-06-17 22:01:46.834 | ERROR    | utils.trajectory:generate_trajectory:59 - 生成轨迹失败: empty range in randrange(10, 10)
+2025-06-17 22:01:46.834 | ERROR    | __main__:main:40 - 无法生成移动轨迹
+2025-06-17 22:02:04.089 | SUCCESS  | captcha.downloader:download_from_url:34 - 验证码图片已保存到: /Users/xuhongzhi/pyProject/captcha/config/../images/originalImage.png 和 /Users/xuhongzhi/pyProject/captcha/config/../images/jigsawImage.png
+2025-06-17 22:02:04.119 | INFO     | captcha.recognizer:recognize_slider:32 - 识别成功，缺口位置: 226px
+2025-06-17 22:02:04.120 | INFO     | utils.trajectory:generate_trajectory:56 - 生成轨迹成功，总距离: 226px, 总时间: 2000ms
+2025-06-17 22:02:04.120 | INFO     | __main__:main:43 - 滑块移动轨迹: [(55, 0, 501), (54, 0, 528), (116, 0, 805), (112, 0, 820), (115, 0, 830), (115, 0, 841), (158, 0, 997), (155, 0, 1041), (156, 0, 1008), (154, 0, 1016), (203, 0, 1189), (201, 0, 1239), (203, 0, 1239), (208, 0, 1216), (216, 0, 1557), (215, 0, 1570), (221, 0, 1576), (226, 0, 1998)]
+2025-06-17 22:02:04.120 | SUCCESS  | __main__:main:48 - 滑块验证码处理完成
